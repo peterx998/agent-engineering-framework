@@ -47,3 +47,11 @@ git clone https://github.com/peterx998/agent-engineering-framework.git
 ## 许可证
 
 MIT — 详见 [LICENSE](LICENSE)
+
+---
+
+## 相关项目
+
+- **[Agent 工程学习指南](https://github.com/peterx998/agent-engineering-learning-guide)** — 20 位大咖 × 5 层递进路线 × 每层逐天教程 × 4 个实战项目。从"只会调 API"到"能做企业级 Agent 系统"的完整学习路线图。
+
+## 快速开始
