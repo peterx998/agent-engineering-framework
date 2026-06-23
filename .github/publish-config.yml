@@ -1,0 +1,44 @@
+# 公开仓库发布前隐私检查配置
+# 每次 git push 到公开仓库前，必须过一遍这些规则
+
+# === 品牌/商业信息 ===
+brands:
+  - Dr. Pen
+  - drpen
+  - dr.pen
+  - DrPen
+
+# === 项目路径 ===
+paths:
+  - drpen-outreach
+  - C:\\Users\\
+  - /c/Users/
+  - /home/
+
+# === 本地工具名 ===
+local_tools:
+  - Headroom
+  - headroom
+
+# === 个人化表述模式 ===
+personal_phrases:
+  - "你正在使用"
+  - "你已经在"
+  - "你的 Hermes"
+  - "你现在的位置"
+  - "本地已安装"
+  - "你的第一个"
+  - "你每天"
+
+# === Commit Message 规则 ===
+commit_rules:
+  - commit message 中不得包含品牌词
+  - commit message 中不得包含项目路径
+  - commit message 中不得包含本地工具名
+  - commit message 应使用通用描述
+
+# === 检查范围 ===
+check_scope:
+  - 文件内容（所有 .md .yml .yaml .json）
+  - commit message（每条）
+  - README 和 frontmatter
